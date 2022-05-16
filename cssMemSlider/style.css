@@ -138,3 +138,35 @@ input[name="r"] {
 #r6:checked ~ .slides-text__wrapper .r1 {
   margin-left: -500%;
 }
+
+@media screen and (max-width: 1450px) {
+  .slidershow {
+    width: 60vw;
+  }
+  .bar span {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .slidershow {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slides-text__wrapper,
+  .navigation,
+  .navigation_active {
+    flex: 0 0 100%;
+  }
+  .slidershow {
+    width: 90vw;
+  }
+  .navigation {
+    justify-content: center;
+    order: 1;
+  }
+  .slides-text__wrapper {
+    order: 2;
+  }
+}
