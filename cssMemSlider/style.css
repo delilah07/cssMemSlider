@@ -91,3 +91,50 @@ input[name="r"] {
   background: grey;
   border-color: grey;
 }
+
+#r1:checked ~ .slides__wrapper .s1 {
+  margin-left: 0;
+}
+#r2:checked ~ .slides__wrapper .s1 {
+  margin-left: -100%;
+}
+#r3:checked ~ .slides__wrapper .s1 {
+  margin-left: -200%;
+}
+#r4:checked ~ .slides__wrapper .s1 {
+  margin-left: -300%;
+}
+#r5:checked ~ .slides__wrapper .s1 {
+  margin-left: -400%;
+}
+#r6:checked ~ .slides__wrapper .s1 {
+  margin-left: -500%;
+}
+
+#r1:checked ~ .navigation .bar:first-child span,
+#r2:checked ~ .navigation .bar:nth-child(2) span,
+#r3:checked ~ .navigation .bar:nth-child(3) span,
+#r4:checked ~ .navigation .bar:nth-child(4) span,
+#r5:checked ~ .navigation .bar:nth-child(5) span,
+#r6:checked ~ .navigation .bar:nth-child(6) span {
+  background: transparent !important;
+}
+
+#r1:checked ~ .slides-text__wrapper .r1 {
+  margin-left: 0;
+}
+#r2:checked ~ .slides-text__wrapper .r1 {
+  margin-left: -100%;
+}
+#r3:checked ~ .slides-text__wrapper .r1 {
+  margin-left: -200%;
+}
+#r4:checked ~ .slides-text__wrapper .r1 {
+  margin-left: -300%;
+}
+#r5:checked ~ .slides-text__wrapper .r1 {
+  margin-left: -400%;
+}
+#r6:checked ~ .slides-text__wrapper .r1 {
+  margin-left: -500%;
+}
